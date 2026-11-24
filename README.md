@@ -16,6 +16,8 @@ The released v0.3 playing-time model uses direct OLS regression with nonnegative
 
 ## Results with context
 
+In the 2025–26 all-NBA replay, mean absolute error was 363.9 minutes versus 396.2 for weighted history on the same 771 matched players. The intended 90% range contained 676 outcomes (87.7%), below its coverage target. Point error and uncertainty are reported together.
+
 The saved release reports minutes RMSE of 432.37 versus 478.93 for weighted history in 2024–25, and 521.69 versus 579.44 in 2025–26. With equal weight for the two seasons, that is about 9.9% lower seasonal RMSE. This is retrospective evaluation, not a record of forecasts issued live before those seasons.
 
 The model's minutes MAE is slightly worse than last-season carry-forward in 2024–25. Nominal 90% interval coverage is 91.69% and 87.68% in the two final tests; individual ranges remain wide. This estimates playing time, not player impact or deserved compensation.
