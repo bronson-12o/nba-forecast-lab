@@ -1,5 +1,39 @@
 # NBA Forecast Lab
 
+Inspect a historical player forecast before and after the result.
+
+## The problem
+
+Playing-time estimates need an eligible cohort, a known cutoff and a baseline. This project lets a reviewer reveal the historical outcome, compare errors and inspect the model evidence.
+
+## How it works
+
+![Simplified project architecture](docs/presentation/system-overview.svg)
+
+The diagram summarizes the documented workflow; it is not a performance result or a generated application screenshot.
+
+## A view of the project
+
+![NBA Forecast Lab — existing project image](media/historical-forecast.webp)
+
+Saved historical dashboard capture; use the live lab to reveal results and inspect the source periods.
+
+## Run or inspect the work
+
+[Open the historical Forecast Lab](https://bronsonhatch.com/nba-forecast-lab) · [Inspect the selected R calculation](examples/interval-calibration.R).
+
+## Evidence and scope
+
+The case study below reports the saved v0.3 playing-time results with their seasons, baselines, interval coverage and counterexamples. The November 2026 audit independently reconciled bundled forecast-export arithmetic and hashes; it did not refit the full model.
+
+The results are retrospective tests, not forecasts proved to have been issued live before each season. Playing time is not player impact or deserved pay. This public repository contains selected code and evidence; complete source and original data/model caches are separate.
+
+<details>
+
+<summary>Detailed setup, original screenshots and project reference</summary>
+
+# NBA Forecast Lab
+
 Historical playing-time forecasting in R, with an interactive React dashboard for inspecting predictions and error.
 
 I built this project to ask how many regular-season minutes and games a returning or recently active player might play next season. A visitor can select a player, reveal the historical result, compare baselines, and examine validation across seasons.
@@ -33,3 +67,5 @@ The saved v0.3 README records an isolated refit reproducing 4,746 playing-time a
 Public feed revisions, missing future injuries/roster decisions, repeated players, and common season shocks limit interpretation. The source project attributes SportsDataverse, hoopR, NBA Stats, and ESPN. No license to those providers' records, brands, or imagery is granted here.
 
 [Use and attribution](USE-AND-ATTRIBUTION.md). Independent portfolio project; no NBA or team affiliation.
+
+</details>
